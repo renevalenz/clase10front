@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 body {
     margin: 0;
+    font-family: "Roboto";
+    
+    
 }
 
 /* ///////////////////////// Header ////////////////////// */
-main{
-    
-}
+main {}
+
 header h2 {
     background-color: #1CD1B0;
     margin: 0;
@@ -21,7 +25,8 @@ header h1 {
     padding: 30px 20px;
     font-weight: 400;
     font-size: 40px;
-    box-shadow: 0 5px 10px rgb(34, 34, 34);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.442);
+    font-weight: 600;
 
 
 }
@@ -29,12 +34,13 @@ header h1 {
 /* ///////////////////////// Main /////////////////// */
 main {
     display: flex;
-    justify-content:center;
-   gap: 40px
-   
-
+    justify-content: center;
+    gap: 40px;
 }
-.card1, .card3, .card2 {
+
+.card1,
+.card3,
+.card2 {
     margin-top: 150px;
     width: 300px;
     height: 529px;
@@ -43,39 +49,40 @@ main {
     background-color: #F3F3F3;
     background-repeat: no-repeat;
     border-radius: 16px 16px 0 0;
-    box-shadow: 0 5px 10px rgb(34, 34, 34);
-    
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.442);
+    position: relative;
 }
+
 .card2 {
-    background-image:url(../img/fondo2.png)
+    background-image: url(../img/fondo2.png)
 }
 
 
 
 .like {
 
-    position: relative;
-    bottom: 70px;
+    position: absolute;
+    top: 20px;
     left: 20px;
-  
+
 }
 
 
 .heroe {
     border-radius: 50%;
-    position: relative;
-    top: 120px;
-    left: 50px;
+    position: absolute;
+    top: 130px;
+    left: 85px;
 
 }
 
 
 .texto-card {
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: 100px;
+    bottom: 10px;
     padding: 20px;
+    
 }
 
 button {
@@ -85,6 +92,7 @@ button {
     padding: 10px 20px;
     font-size: 15px;
     color: white;
+    
 }
 
 
@@ -92,7 +100,7 @@ button {
 /* /////////////////////// Footer //////////////////// */
 
 h3 {
-    
+
     bottom: 100px;
     margin: 0;
     margin-top: 150px;
@@ -100,4 +108,3 @@ h3 {
     font-size: 16px;
     padding: 10px 20px;
 }
-
